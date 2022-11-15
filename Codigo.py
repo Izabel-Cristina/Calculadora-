@@ -1,3 +1,7 @@
+import Tkinter as TK
+
+janela = tk.TK()
+
 while True:
     numero_1 = input('Digite o primeiro numero: ')
     numero_2 = input('Digite o segundo numero: ')
