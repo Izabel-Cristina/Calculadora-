@@ -1,6 +1,13 @@
-import Tkinter as TK
+import tkinter as tk
 
-janela = tk.TK()
+janela = tk.Tk()
+janela.rowconfigure(0,weight=1)
+janela.columnconfigure([0,1], weight = 1)
+janela.title('Tabuada')
+janela.mainloop()
+
+
+
 
 while True:
     numero_1 = input('Digite o primeiro numero: ')
